@@ -1,1 +1,1 @@
-This is CS61A
+This is CS61A Fall 2024
