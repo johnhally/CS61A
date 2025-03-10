@@ -167,7 +167,7 @@ def max_path_sum(t):
     11
     >>> t2 = tree(5, [tree(4, [tree(1), tree(3)]), tree(2, [tree(10), tree(3)])])
     >>> max_path_sum(t2) # 5, 2, 10
-    17
+    17c
     """
     "*** YOUR CODE HERE ***"
     if is_leaf(t):
