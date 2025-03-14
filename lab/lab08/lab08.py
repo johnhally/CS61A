@@ -80,6 +80,17 @@ def max_path_sum(t):
     11
     """
     "*** YOUR CODE HERE ***"
+    '''
+    if t.is_leaf():
+        return t.label
+    else:
+        n = float('-inf')
+        for b in t.branches:
+            count = max_path_sum(b)
+            if n < count:
+                n = count
+        return n + t.label
+    '''
     if t.is_leaf():
         return t.label
     else:
